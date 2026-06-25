@@ -40,7 +40,7 @@ export default function RootLayout({
 
         {/* Google Analytics 4 (GA4) */}
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
+          src="https://www.googletagmanager.com/gtag/js?id=GTM-GT4PSJZR"
           strategy="afterInteractive"
         />
         <Script id="google-analytics" strategy="afterInteractive">
