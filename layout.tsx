@@ -13,12 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Nice Home Care Services | Cuidado en el Hogar en California",
+  title: "Nice Home Care Services | Cuidado en el Hogar con calidad y calidez para adultos mayores",
   description: "Servicios profesionales de cuidado en el hogar en Santa Clara, San Jose, Cupertino, Milpitas y Sunnyvale. 24/7, atención personalizada para adultos mayores. Licencia pendiente.",
   keywords: ["cuidado en el hogar", "home care", "Santa Clara", "San Jose", "Cupertino", "cuidados para adultos mayores", "California"],
   openGraph: {
     title: "Nice Home Care Services",
-    description: "Cuidado confiable y compasivo en el hogar del Valle de Santa Clara.",
+    description: "Cuidado profesional confiable y compasivo en el hogar.",
     images: [{ url: "/og-image.jpg" }],
   },
 };
@@ -32,7 +32,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="es"
+      lang="es | en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
@@ -40,7 +40,7 @@ export default function RootLayout({
 
         {/* Google Analytics 4 (GA4) */}
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
+          src="https://www.googletagmanager.com/gtag/js?id=GTM-GT4PSJZR"
           strategy="afterInteractive"
         />
         <Script id="google-analytics" strategy="afterInteractive">
@@ -48,7 +48,7 @@ export default function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-XXXXXXXXXX', {
+            gtag('config', 'GTM-GT4PSJZR', {
               page_path: window.location.pathname,
             });
           `}
