@@ -13,12 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Nice Home Care Services | Cuidado en el Hogar en California",
+  title: "Nice Home Care Services | Cuidado en el Hogar con calidad y calidez para adultos mayores",
   description: "Servicios profesionales de cuidado en el hogar en Santa Clara, San Jose, Cupertino, Milpitas y Sunnyvale. 24/7, atención personalizada para adultos mayores. Licencia pendiente.",
   keywords: ["cuidado en el hogar", "home care", "Santa Clara", "San Jose", "Cupertino", "cuidados para adultos mayores", "California"],
   openGraph: {
     title: "Nice Home Care Services",
-    description: "Cuidado confiable y compasivo en el hogar del Valle de Santa Clara.",
+    description: "Cuidado profesional confiable y compasivo en el hogar.",
     images: [{ url: "/og-image.jpg" }],
   },
 };
